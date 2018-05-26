@@ -9,7 +9,9 @@ def initialize(word)
   @word = word
 end
 
-def match
+def match(array)
+  #You'll need to iterate over the array of words #match takes in as an array
+  # then compare each word of that array to @word
 end
 
 end
