@@ -12,6 +12,8 @@ end
 def match(array)
   #You'll need to iterate over the array of words #match takes in as an array
   # then compare each word of that array to @word
+  #split word into array of letters with some_word.split("")
+  #then compare two arrays using the == after .sort (ing) them
 end
 
 end
