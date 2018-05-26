@@ -3,9 +3,10 @@
 # learn/rspec --fail-fast
 
 class Anagram
-attr_accessor :something
+attr_accessor :word
 
-def initialize
+def initialize(word)
+  @word = word
 end
 
 def match
